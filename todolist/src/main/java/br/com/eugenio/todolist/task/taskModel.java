@@ -13,7 +13,7 @@ import lombok.Data;
 
 @Data
 @Entity(name = "tb_tasks")
-public class taskModel {
+public class TaskModel {
     
     @Id
     @GeneratedValue(generator = "UUID")
